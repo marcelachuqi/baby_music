@@ -1,0 +1,45 @@
+.app_js {
+  background-image: url(./image/wall2.png);
+  background-position: center;
+  background-repeat: repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app_div {
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 900px;
+  height: 500px;
+}
+
+.instrument_js,
+.instrument2_js,
+.instrument3_js {
+  color: white;
+  font-family: "Butterfly Kids", cursive;
+  font-size: 30px;
+}
+.piano-audio,
+.drum-audio,
+.saxo-audio {
+  visibility: hidden;
+}
+
+.piano,
+.drum,
+.saxo {
+  width: 150px;
+  margin: 80px;
+}
+.piano:hover,
+.drum:hover,
+.saxo:hover {
+  cursor: pointer;
+  transform: scale(1.8);
+}
