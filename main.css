@@ -16,7 +16,7 @@
   left: 0px;
   top: 0px;
   position: fixed;
-  padding: 10px 0 0 130px;
+  padding: 10px 0 10px 130px;
   color: rgb(255, 255, 255);
   font-family: "Butterfly Kids", cursive;
   background-color: rgb(26, 4, 26);
@@ -40,7 +40,7 @@
   color: white;
   font-family: "Indie Flower", cursive;
   font-size: 20px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .piano-audio,
 .drum-audio,
@@ -52,6 +52,7 @@
 .drum,
 .saxo {
   width: 200px;
+  margin-top: 30px;
 }
 .piano:hover,
 .drum:hover,
