@@ -8,6 +8,7 @@
 }
 
 .instrument_js {
+  z-index: 999;
   margin-top: 0px;
   position: absolute;
   font-size: 40px;
