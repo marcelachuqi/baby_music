@@ -2,28 +2,45 @@
   background-image: url(./image/wall2.png);
   background-position: center;
   background-repeat: repeat;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.instrument_js {
+  margin-top: 0px;
+  position: absolute;
+  font-size: 40px;
+  width: 100vw;
+  height: 9%;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  padding: 10px 0 0 130px;
+  color: rgb(255, 255, 255);
+  font-family: "Butterfly Kids", cursive;
+  background-color: rgb(26, 4, 26);
+  text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 10px #ffffff;
+  box-shadow: 0 0 0px #e8c5c5, 0 0 30px #f1c0c0, 0 0 30px #ffffff;
+}
 .app_div {
-  margin: 3rem;
+  margin-top: 20%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
-  width: 900px;
-  height: 500px;
+  width: 80%;
 }
 
-.instrument_js,
+.instrument1_js,
 .instrument2_js,
 .instrument3_js {
   color: white;
-  font-family: "Butterfly Kids", cursive;
-  font-size: 30px;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  margin-top: 70px;
 }
 .piano-audio,
 .drum-audio,
@@ -34,12 +51,25 @@
 .piano,
 .drum,
 .saxo {
-  width: 150px;
-  margin: 80px;
+  width: 200px;
 }
 .piano:hover,
 .drum:hover,
 .saxo:hover {
   cursor: pointer;
-  transform: scale(1.8);
+  transform: scale(1.5);
+}
+.footer_js {
+  width: 100vw;
+  height: 5%;
+  padding: 10px 0 0 130px;
+  position: fixed;
+  bottom: 0px;
+  opacity: 0.6;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(21, 2, 21);
+}
+.footer-link {
+  color: white;
 }

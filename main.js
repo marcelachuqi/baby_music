@@ -1,6 +1,7 @@
 "use strict";
 const app = document.querySelector(".app_js");
 const selected = document.querySelector(".instrument_js");
+const selected1 = document.querySelector(".instrument1_js");
 const selected2 = document.querySelector(".instrument2_js");
 const selected3 = document.querySelector(".instrument3_js");
 const reproduce1 = document.querySelector(".reproduce1");
@@ -19,7 +20,7 @@ setColor();
 
 function handlePiano(event) {
   event.preventDefault();
-  selected.innerHTML = "This is a piano!";
+  selected1.innerHTML = "This is a piano!";
   pianoAudio.play();
 }
 
